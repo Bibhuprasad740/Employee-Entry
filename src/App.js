@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Form from "./components/Form/Form";
+import TopContainer from "./components/TopContainer/TopContainer";
+import BottomContainer from "./components/BottomContainer/BottomContainer";
 
 function App() {
   return (
     <>
-      <Header />
-      <Form />
+      <TopContainer />
+      <BottomContainer />
     </>
   );
 }

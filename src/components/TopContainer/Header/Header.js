@@ -2,11 +2,7 @@ import React from "react";
 import classes from "./Header.module.css";
 
 const Header = (props) => {
-  return (
-    <header>
-      <h1>Employee Details</h1>
-    </header>
-  );
+  return <header>Enter Employee Details</header>;
 };
 
 export default Header;

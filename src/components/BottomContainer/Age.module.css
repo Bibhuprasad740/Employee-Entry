@@ -1,0 +1,18 @@
+.age {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgb(7, 1, 35);
+  color: whtie;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2; */
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  box-shadow: rgb(42, 42, 42) 2px 2px 20px;
+}
+
+.age p {
+  /* font-size: 1.5rem; */
+}
