@@ -4,7 +4,7 @@ import classes from "./Age.module.css";
 const Age = (props) => {
   return (
     <div className={classes.age}>
-      <p>23 Years</p>
+      <p>{`${props.age} Years`}</p>
       {/* <p>Years</p> */}
     </div>
   );

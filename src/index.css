@@ -13,6 +13,7 @@ body {
   /* background: radial-gradient(rgb(66, 64, 74), rgb(20, 19, 24));
   background-repeat: no-repeat; */
   color: white;
+  background-color: #4b4653;
   display: flex;
   justify-content: center;
 }

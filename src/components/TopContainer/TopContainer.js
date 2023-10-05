@@ -8,7 +8,7 @@ const TopContainer = (props) => {
   return (
     <div className={classes["top-container"]}>
       <Header />
-      <Form />
+      <Form onAddEmployee={props.onAddEmployee} />
     </div>
   );
 };

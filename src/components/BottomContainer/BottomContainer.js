@@ -5,13 +5,9 @@ import Employee from "./Employee";
 const BottomContainer = (props) => {
   return (
     <div className={classes["bottom-container"]}>
-      <Employee />
-      <Employee />
-      <Employee />
-      <Employee />
-      <Employee />
-      <Employee />
-      <Employee />
+      {props.employees.map((employee) => (
+        <Employee key={employee.id} data={employee} />
+      ))}
     </div>
   );
 };

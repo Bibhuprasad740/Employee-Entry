@@ -6,8 +6,8 @@ import Name from "./Name";
 const Employee = (props) => {
   return (
     <li className={classes.employee}>
-      <Age />
-      <Name />
+      <Age age={props.data.age} />
+      <Name name={props.data.name} />
     </li>
   );
 };
